@@ -12,7 +12,8 @@ module.exports = {
         paragraph: '#030f27',
         paragraphlight: '#8c89a2',
         footerbg: '#030e22',
-        footercontent: '#748494'
+        footercontent: '#748494',
+        
       },
     },
   },
