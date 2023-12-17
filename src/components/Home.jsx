@@ -59,6 +59,12 @@ function Home() {
         </div>
  )}
       </div>
+      <div className='pt-[90px] pb-[170px] '>
+        <div className='mb-[40px] flex flex-col items-center justify-center'>
+        <p className='text-[42px] text-paragraph font-medium tracking-wide'>We are a full-service creative agency</p>
+        <p className='text-[18px] mx-[380px] mt-[20px] text-paragraphlight leading-6 max-w-[530px] text-center px-8 font-normal'>Our team of designers, developers and creatives are perfectionists who love what they do and love</p>
+        </div>
+      </div>
     </div>
   );
 }
