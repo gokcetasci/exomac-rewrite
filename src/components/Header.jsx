@@ -82,14 +82,14 @@ function Header() {
                 </Link>
               </div>
               <div className='ml-[35px] flex justify-center items-center px-[15px]'>
-                <Link to={'/'} className='text-[26px] text-white px-[5px] py-[6px]'>
+                <Link to={'/'} className='text-[26px] text-white px-[5px] py-[6px] hover:text-primary transition duration-300 ease-in-out'>
                   <IoSearchOutline />
                 </Link>
               </div>
             </div>
           </div>
           <div className=' px-[15px] justify-items-end'>
-            <button className='text-primary hover:text-white hover:scale-110 hover:bg-primary transition duration-300 ease-in-out text-[16px] font-medium h-[52px] flex justify-center items-center px-10 bg-white rounded-md border border-primary '>
+            <button className='text-primary hover:text-white hover:scale-105 hover:bg-primary transition duration-300 ease-in-out text-[16px] font-medium h-[52px] flex justify-center items-center px-10 bg-white rounded-md border border-primary '>
               Buy Now
             </button>
           </div>
