@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 function Header() {
   const [isWorkDropdownOpen, setIsWorkDropdownOpen] = useState(false);
   const [isBlogDropdownOpen, setIsBlogDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false); 
+
+  const scrollThreshold = 770; //height değeri belirterek header ın scroll edilince arka plan rengini değiştirmesini kontrol ettim
 
   const handleWorkDropdownOpen = () => {
     setIsWorkDropdownOpen(true);
@@ -23,9 +26,23 @@ function Header() {
     setIsBlogDropdownOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > scrollThreshold;
+      setIsScrolled(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='fixed z-10 '>
-      <div className='w-screen bg-opacity-50 border-b border-[#f3f3f3] flex flex-row items-center ' >
+    <div className={`fixed z-10 bg-opacity-50 border-b border-gray-400 flex flex-row items-center ${isScrolled ? 'bg-changed-color' : ''}`}>
+
+      <div className='w-screen bg-opacity-50 border-b border-gray-400 flex flex-row items-center ' >
         <div className='container mx-auto px-[15px] flex flex-row justify-between items-center  '>
           <div className='px-[15px] w-[160px] '>
             <img src="https://exomac.jamstacktemplates.dev/images/logo/logo.png" alt="" className='py-[15px]' />
