@@ -36,10 +36,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul>
-                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent'><a href="">Marketing</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">SEO/SEM</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Development</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">UX Design</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Marketing</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">SEO/SEM</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Development</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">UX Design</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,10 +49,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul>
-                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent'><a href="">Elementor Guru</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">WooLentor Pro</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Plugins</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Page Builder</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Elementor Guru</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">WooLentor Pro</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Plugins</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Page Builder</a></li>
                             </ul>
                         </div>
                     </div>
@@ -62,10 +62,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul>
-                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent'><a href="">Features</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Our Partners</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Affiliate Program</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Pricing</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Features</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Our Partners</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Affiliate Program</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Pricing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -75,10 +75,10 @@ function Footer() {
                         </div>
                         <div>
                             <ul>
-                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent'><a href="">Support Ticket</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Help Desk</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">Live Chat</a></li>
-                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent'><a href="">FAQs</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px] text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Support Ticket</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Help Desk</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">Live Chat</a></li>
+                                <li className='mb-[10px] pr-[20px] text-[16px]  text-footercontent hover:text-primary transition duration-300 ease-in-out'><a href="">FAQs</a></li>
                             </ul>
                         </div>
                     </div>
