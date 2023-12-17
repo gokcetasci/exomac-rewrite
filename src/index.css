@@ -20,5 +20,21 @@
     background: linear-gradient(90deg, rgba(3, 15, 39, 0.7) 0, rgba(3, 15, 39, 0));
     pointer-events: none; /* Böylece bu örtü, resmin üzerindeki tıklamaları engeller */
   }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
   
   
