@@ -36,5 +36,12 @@
     animation: fadeIn 1s ease-in-out;
   }
   
+
+  .bg-changed-color {
+  background-color: #030e22;
+  transition: background-color 0.3s ease;
+  }
+
+
   
   
