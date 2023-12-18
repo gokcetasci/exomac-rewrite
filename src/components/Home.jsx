@@ -85,7 +85,7 @@ function Home() {
           <div className='px-[15px] w-[550px]'>
             <div className='w-[420px]'>
               <div className='flex flex-row mb-[25px]'>
-                <div className='w-[70px] mt-4 h-[2px] bg-[#1292ee]'></div>
+                <div className='w-[70px] mt-6 h-[2px] bg-[#1292ee]'></div>
                 <p className='text-[18px] text-paragraphlight pl-[15px]'>Every day brings new challenges</p>
               </div>
               <div>
@@ -111,79 +111,130 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className='flex flex-row gap-10 mx-[140px] mb-[100px]'>
+        <div className='flex flex-row gap-10 mx-[140px] mb-[170px]'>
           <div className='py-[50px] border w-1/3 flex flex-col items-center justify-center px-[60px] hover:scale-105 hover:shadow-2xl ransition duration-300 ease-in-out'>
             <div>
               <TbCircleDashed className='w-[50px] h-[50px] text-primary mb-[35px]' />
             </div>
             <div className='flex flex-col items-center justify-center'>
-            <p className='text-[20px] font-bold'>Branding</p>
+              <p className='text-[20px] font-bold'>Branding</p>
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
               <a href="">Learn More</a>
             </div>
-            
+
           </div>
           <div className='py-[50px] border w-1/3 flex flex-col items-center justify-center px-[60px] hover:scale-105 hover:shadow-2xl ransition duration-300 ease-in-out'>
             <div>
-              <MdOutlineDesignServices className='w-[50px] h-[50px] text-primary mb-[35px]'/>
+              <MdOutlineDesignServices className='w-[50px] h-[50px] text-primary mb-[35px]' />
             </div>
             <div className='flex flex-col items-center justify-center'>
-            <p className='text-[20px] font-bold'>UX Design</p>
+              <p className='text-[20px] font-bold'>UX Design</p>
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
               <a href="">Learn More</a>
             </div>
-            
+
           </div>
-          <div className='py-[50px] border w-1/3 flex flex-col items-center justify-center px-[60px] hover:scale-105 hover:shadow-2xl ransition duration-300 ease-in-out'>
+          <div className='py-[50px] border w-1/3 flex flex-col items-center justify-center px-[60px] hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out'>
             <div>
               <PiStrategy className='w-[50px] h-[50px] text-primary mb-[35px]' />
             </div>
             <div className='flex flex-col items-center justify-center'>
-            <p className='text-[20px] font-bold'>Strategy</p>
+              <p className='text-[20px] font-bold'>Strategy</p>
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
               <a href="">Learn More</a>
             </div>
-            
+
           </div>
         </div>
       </div>
-      <div className='flex flex-row items-center justify-center ml-[100px]'>
-          <div className='relative w-[770px] px-[15px]'>
-            <img
-              src="https://exomac.jamstacktemplates.dev/images/skill/skill-2.jpg"
-              alt=""
-              className='rounded-lg z-[9] hover:ease-in-out transform hover:scale-105 transition-transform duration-500 ease-in-out'
-            />
-            <img
-              src="https://exomac.jamstacktemplates.dev/images/skill/skill-1.jpg"
-              alt=""
-              className='rounded-lg absolute bottom-48 left-60 transition-transform duration-500 ease-in-out transform hover:scale-105'
-            />
-          </div>
-          <div className='px-[15px] w-[550px]'>
-            <div className='w-[420px]'>
-              <div className='flex flex-row mb-[25px]'>
-                <div className='w-[70px] mt-4 h-[2px] bg-[#1292ee]'></div>
-                <p className='text-[18px] text-paragraphlight pl-[15px]'>Your success is our success</p>
+      <div className='flex flex-row items-center justify-center mb-[40px]'>
+        <div className='relative w-[770px] px-[15px]'>
+          <img
+            src="https://exomac.jamstacktemplates.dev/images/skill/skill-2.jpg"
+            alt=""
+            className='rounded-lg z-[9] hover:ease-in-out transform hover:scale-105 transition-transform duration-500 ease-in-out'
+          />
+          <img
+            src="https://exomac.jamstacktemplates.dev/images/skill/skill-1.jpg"
+            alt=""
+            className='rounded-lg absolute bottom-48 left-60 transition-transform duration-500 ease-in-out transform hover:scale-105'
+          />
+        </div>
+        <div className='px-[15px] w-[550px]'>
+          <div className='w-[520px]'>
+            <div className='flex flex-row mb-[25px]'>
+              <div className='w-[70px] mt-6 h-[2px] bg-[#1292ee]'></div>
+              <p className='text-[18px] text-paragraphlight pl-[15px]'>Your success is our success</p>
+            </div>
+
+            <h1 className='text-[32px] text-paragraph font-bold mb-[30px]'>Web design, marketing & SEO solutions that get results</h1>
+
+
+            <div id='uxdesignpercent' className='mb-10'>
+              <div className='flex flex-row mb-4 items-center justify-between text-gray-600 '>
+                <p className='text-[16px]  font-normal'>UX Design</p>
+                <p className='text-[16px] font-normal mr-8'>81%</p>
               </div>
-              <div>
-                <h1 className='text-[32px] text-paragraph font-bold mb-[30px]'>Web design, marketing & SEO solutions that get results</h1>
-                <p className='text-paragraphlight text-[16px] leading-loose font-medium'>We're boldly individual, always original and refreshingly easy-going. Our vision, passion and ideas are matched with focus, expertise and flair.</p>
+              <div className='w-full rounded-md h-[4px] bg-[#748494]'>
+                <div className='relative rounded-md w-[81%] h-[4px] bg-gradient-to-r from-[#0d8abc] to-[#61fded]'>
+                  <div className='absolute -right-4 -top-3 w-[25px] h-[25px] rounded-full flex items-center justify-center ring-1 ring-[#61fded]'>
+                    <div className=' w-[8px] h-[8px] rounded-full bg-white ring-4 ring-[#61fded]'>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className='mt-[40px]'>
-                <button className='text-white hover:text-white hover:bg-black transition duration-300 ease-in-out text-[16px] font-medium h-[52px] flex justify-center items-center px-10 bg-primary rounded-md '>
-                  About Us
-                </button>
+            </div>
+            <div id='marketingpercent' className='mb-10'>
+              <div className='flex flex-row mb-4 items-center justify-between text-gray-600 '>
+                <p className='text-[16px]  font-normal'>Marketing</p>
+                <p className='text-[16px] font-normal mr-16'>72%</p>
+              </div>
+              <div className='w-full rounded-md h-[4px] bg-[#748494]'>
+                <div className='relative rounded-md w-[72%] h-[4px] bg-gradient-to-r from-[#d45529] to-[#eece90]'>
+                  <div className='absolute -right-4 -top-3 w-[25px] h-[25px] rounded-full flex items-center justify-center ring-1 ring-[#eece90]'>
+                    <div className=' w-[8px] h-[8px] rounded-full bg-white ring-4 ring-[#eece90]'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id='webdesignpercent' className='mb-10'>
+              <div className='flex flex-row mb-4 items-center justify-between text-gray-600 '>
+                <p className='text-[16px]  font-normal'>Web Desing</p>
+                <p className='text-[16px] font-normal mr-8'>81%</p>
+              </div>
+              <div className='w-full rounded-md h-[4px] bg-[#748494]'>
+                <div className='relative rounded-md w-[81%] h-[4px] bg-gradient-to-r from-[#f646a9] to-[#5c51ff]'>
+                  <div className='absolute -right-4 -top-3 w-[25px] h-[25px] rounded-full flex items-center justify-center ring-1 ring-[#5c51ff]'>
+                    <div className=' w-[8px] h-[8px] rounded-full bg-white ring-4 ring-[#5c51ff]'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id='developmentpercent' className='mb-10'>
+              <div className='flex flex-row mb-4 items-center justify-between text-gray-600 '>
+                <p className='text-[16px]  font-normal'>Development</p>
+                <p className='text-[16px] font-normal mr-8'>81%</p>
+              </div>
+              <div className='w-full rounded-md h-[4px] bg-[#748494]'>
+                <div className='relative rounded-md w-[81%] h-[4px] bg-gradient-to-r from-[#e77654] to-[#e5529a]'>
+                  <div className='absolute -right-4 -top-3 w-[25px] h-[25px] rounded-full flex items-center justify-center ring-1 ring-[#e5529a]'>
+                    <div className=' w-[8px] h-[8px] rounded-full bg-white ring-4 ring-[#e5529a]'>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 }
