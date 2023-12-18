@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
 
 function Portfolio() {
     const [selectedTitle, setSelectedTitle] = useState('all');
@@ -17,22 +16,37 @@ function Portfolio() {
         ),
         app: (
             <>
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-1.jpg" alt="portfolio-1" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-3.jpg" alt="portfolio-3" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-5.jpg" alt="portfolio-5" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-6.jpg" alt="portfolio-6" />
             </>
         ),
         development: (
             <>
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-1.jpg" alt="portfolio-1" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-4.jpg" alt="portfolio-4" />
             </>
         ),
         marketing: (
             <>
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-2.jpg" alt="portfolio-2" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-3.jpg" alt="portfolio-3" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-4.jpg" alt="portfolio-4" />
             </>
         ),
         software: (
             <>
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-2.jpg" alt="portfolio-2" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-3.jpg" alt="portfolio-3" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-6.jpg" alt="portfolio-6" />
             </>
         ),
         uxdesign: (
             <>
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-4.jpg" alt="portfolio-4" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-5.jpg" alt="portfolio-5" />
+                <img src="https://exomac.jamstacktemplates.dev/images/portfolio/portfolio-6.jpg" alt="portfolio-6" />
             </>
         )
     };
@@ -41,9 +55,10 @@ function Portfolio() {
         setSelectedTitle(title)
     }
 
+    
     return (
         <div>
-            <div className='px-[15px] mx-auto container'>
+            <div className='px-[15px] mx-auto container mb-[100px]'>
                 <div className='flex flex-row justify-between' >
                     <div className='mb-[30px] w-5/12'>
                         <div className='flex flex-row mb-[25px]'>
@@ -88,6 +103,38 @@ function Portfolio() {
 
                         </ul>
                     </div>
+                </div>
+                <div className='grid grid-cols-3'>
+                    {selectedTitle === 'all' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
+                    {selectedTitle === 'app' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
+                    {selectedTitle === 'development' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
+                    {selectedTitle === 'marketing' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
+                    {selectedTitle === 'software' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
+                    {selectedTitle === 'uxdesign' && (
+                        <>
+                            {titlecontent[selectedTitle]}
+                        </>
+                    )}
                 </div>
             </div>
         </div>
