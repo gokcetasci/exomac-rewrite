@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -15,6 +17,11 @@ module.exports = {
         footercontent: '#748494',
         
       },
+    },
+    screens: {
+      'xs': '379px',
+      ...defaultTheme.screens,
+
     },
   },
   plugins: [],
