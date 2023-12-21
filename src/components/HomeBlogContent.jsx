@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 
 function HomeBlogContent() {
     return (
-        <div>
-            <div>
-                <div className='pt-[90px] mb-[50px]'>
+        <div className='container mx-auto'>
+        <div className='container mx-auto'>
+                <div className='pt-[20px] lg:pt-[90px] mb-[50px] '>
                     <div className=' flex flex-col items-center justify-center'>
-                        <p className='text-[42px] text-paragraph font-medium tracking-wide'>We are a full-service creative agency
+                        <p className='text-[30px] sm:text-[42px] text-paragraph font-medium tracking-wide text-center'>We are a full-service creative agency
                         </p>
-                        <p className='text-[18px] mx-[380px] mt-[20px] text-paragraphlight leading-6 max-w-[600px] text-center px-8 font-normal'>Our team of designers, developers and creatives are perfectionists who love what they do and love
+                        <p className='text-[18px] mx-auto lg:mx-[380px] mt-[20px] text-paragraphlight leading-6 max-w-[600px] text-center px-8 font-normal'>Our team of designers, developers and creatives are perfectionists who love what they do and love
 
                         </p>
                     </div>
                 </div>
-                <div className='flex flex-row container mx-auto'>
-                    <div className='px-[15px] mb-[30px] w-1/3'>
+                <div className='flex flex-col md:flex-row container mx-auto'>
+                    <div className='px-[15px] mb-[30px] w-auto md:w-1/3'>
                         <div className='overflow-hidden'>
                             <img src="https://exomac.jamstacktemplates.dev/images/blog/370/blog-1.jpg" alt="" className='w-full hover:scale-110 transition duration-1000 ease-in-out' />
                         </div>
@@ -42,7 +42,7 @@ function HomeBlogContent() {
                             </div>
                         </div>
                     </div>
-                    <div className='px-[15px] mb-[30px] w-1/3'>
+                    <div className='px-[15px] mb-[30px] w-auto md:w-1/3'>
                         <div className='overflow-hidden'>
                             <img src="https://exomac.jamstacktemplates.dev/images/blog/370/blog-2.jpg" alt="" className='w-full hover:scale-110 transition duration-1000 ease-in-out' />
                         </div>
@@ -67,7 +67,7 @@ function HomeBlogContent() {
                             </div>
                         </div>
                     </div>
-                    <div className='px-[15px] mb-[30px] w-1/3'>
+                    <div className='px-[15px] mb-[30px] w-auto md:w-1/3'>
                         <div className='overflow-hidden'>
                             <img src="https://exomac.jamstacktemplates.dev/images/blog/370/blog-3.jpg" alt="" className='w-full hover:scale-110 transition duration-1000 ease-in-out' />
                         </div>
