@@ -59,8 +59,8 @@ function Slider() {
       <SlickSlider {...settings} className="relative" ref={sliderRef}>
         {sliders.map((slider, index) => (
           <div key={index} className="slider-item relative">
-            <img src={slider.img} alt={`slide ${index + 1}`} />
-            <div className="image-overlay absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[rgba(3, 15, 39, 0.7)] to-[rgba(3, 15, 39, 0)] pointer-events-none"></div>
+            <img src={slider.img} alt={`slide ${index + 1}`} className='h-[500px] md:h-full'/>
+            <div className="image-overlay absolute top-0 left-0 w-full  bg-gradient-to-r from-[rgba(3, 15, 39, 0.7)] to-[rgba(3, 15, 39, 0)] pointer-events-none"></div>
           </div>
         ))}
       </SlickSlider>
