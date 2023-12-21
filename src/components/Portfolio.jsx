@@ -58,8 +58,8 @@ function Portfolio() {
     
     return (
         <div>
-            <div className='px-[15px] mx-auto container mb-[100px]'>
-                <div className='flex flex-row justify-between' >
+            <div className='px-[15px] mx-auto container mb-[40px] sm:mb-[100px]'>
+                <div className='flex flex-col md:flex-row justify-between' >
                     <div className='mb-[30px] w-5/12'>
                         <div className='flex flex-row mb-[25px]'>
                             <div className='w-[70px] mt-6 h-[2px] bg-[#1292ee]'></div>
@@ -68,7 +68,7 @@ function Portfolio() {
                         <p className='text-[32px] font-medium'>Selected Works.</p>
                     </div>
                     <div>
-                        <ul className='flex flex-row px-[15px] mb-[65px] text-paragraphlight'>
+                        <ul className='flex flex-col sm:flex-row px-[15px] mb-[65px] text-paragraphlight '>
                             <li >
                                 <button onClick={() => handleTitleClick('all')} className={`text-[16px] font-normal py-[5px] px-[15px] hover:text-primary transition duration-300 ease-in-out   ${selectedTitle === 'all' ? 'text-primary' : ''
                                     }`}>
@@ -104,7 +104,7 @@ function Portfolio() {
                         </ul>
                     </div>
                 </div>
-                <div className='grid grid-cols-3'>
+                <div className='grid lg:grid-cols-3'>
                     {selectedTitle === 'all' && (
                         <>
                             {titlecontent[selectedTitle]}
