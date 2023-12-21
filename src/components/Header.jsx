@@ -10,7 +10,7 @@ function Header() {
   const [isBlogDropdownOpen, setIsBlogDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const scrollThreshold = 770; //height değeri belirterek header ın scroll edilince arka plan rengini değiştirmesini kontrol ettim
+  const scrollThreshold = 470; //height değeri belirterek header ın scroll edilince arka plan rengini değiştirmesini kontrol ettim
 
   const handleWorkDropdownOpen = () => {
     setIsWorkDropdownOpen(true);
@@ -125,8 +125,8 @@ function Header() {
                     <RxHamburgerMenu className='w-[30px] h-[30px] text-white hover:text-primary' />
                   </div>
                   {isMenuOpen && (
-                    <div className='fixed top-0 right-0 w-full h-full flex place-content-end bg-slate-400 bg-opacity-75 z-30 w-[300px]'>
-                      <div className='w-[300px]'>
+                    <div className='fixed top-0 right-0 w-full h-full flex place-content-end z-30 w-[300px]'>
+                      <div className='w-[300px]  bg-slate-400 '>
                         <div className='px-[15px] flex flex-row justify-between items-center w-[300px] bg-changed-color py-[10px]' onClick={closeMenu} >
                           <img src="https://exomac.jamstacktemplates.dev/images/logo/logo.png" alt="" className='py-[15px] w-[120px] ' />
                           <MdClose className='text-white text-4xl hover:text-primary ' />
