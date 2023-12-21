@@ -8,7 +8,7 @@ import { FaHeart } from "react-icons/fa";
 function Footer() {
     return (
         <div className='bg-footerbg pt-[100px]'>
-            <div className='container mx-auto px-[15px] flex flex-row border-b border-gray-600  justify-between'>
+            <div className='container mx-auto px-[15px] flex flex-col md:flex-row border-b border-gray-600  justify-between '>
                 <div id='footer-widget' className='px-[15px] mb-[30px]'>
                     <div className='mb-[30px]'>
                         <img src="https://exomac.jamstacktemplates.dev/images/logo/footer-logo.png" alt="" className='py-[15px]' />
@@ -29,9 +29,9 @@ function Footer() {
                         <a href=""><FaInstagram className='mr-[10px] mb-[10px] text-footercontent w-6 h-6' /></a>
                     </div>
                 </div>
-                <div id='footer-content' className='flex flex-row'>
-                    <div className='px-[15px] my-[30px] mr-20'>
-                        <div className='mb-[17px]'>
+                <div id='footer-content' className='flex flex-col md:flex-row'>
+                    <div className='px-[15px] my-[30px]  mr-0 lg:mr-20 '>
+                        <div className='mb-[17px] '>
                             <h1 className='text-[18px] text-white font-bold'>Services</h1>
                         </div>
                         <div>
@@ -43,7 +43,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='px-[15px] my-[30px] mr-20'>
+                    <div className='px-[15px] my-[30px] mr-0 lg:mr-20 '>
                         <div className='mb-[17px]'>
                             <h1 className='text-[18px] text-white font-bold'>Products</h1>
                         </div>
@@ -56,7 +56,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='px-[15px] my-[30px] mr-20'>
+                    <div className='px-[15px] my-[30px] mr-0 lg:mr-20 '>
                         <div className='mb-[17px]'>
                             <h1 className='text-[18px] text-white font-bold'>About</h1>
                         </div>
@@ -84,7 +84,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='flex items-center justify-center py-[20px] px-[15px] text-[14px] text-white flex gap-1 '>
+            <div className='flex items-center justify-center py-[20px] px-[15px]  text-[14px] text-white flex gap-1 '>
                 <p className=' flex flex-row'>© 2023</p>
                 <p className='font-black'>Exomac</p>
                 <p>Made With</p>
