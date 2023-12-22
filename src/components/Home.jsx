@@ -103,7 +103,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='bg-[#f8faff] container mx-auto px-[15px] md:px-0'>
+      <div className='bg-[#f8faff] flex flex-col w-auto px-[15px]'>
         <div className='pt-[40px] lg:pt-[90px] mb-[50px]'>
           <div className=' flex flex-col items-center justify-center'>
             <p className='text-[30px] md:text-[42px] text-paragraph font-medium tracking-wide text-center'>We create a unique action plan for brands
