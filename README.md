@@ -19,7 +19,7 @@ You can access the live preview of the project [here.] [https://exomac-rewrite-t
 
 ## Getting Started
 1. Git clone: git clone https://github.com/gokcetasci/exomac-rewrite.git 
-2. Go to the project directory: cd adiniz
+2. Go to the project directory: cd projectname
 3. Install dependencies: npm install
 4. Once the project dependencies are installed, you can start the project using the npm start command.
 

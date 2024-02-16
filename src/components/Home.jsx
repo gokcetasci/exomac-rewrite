@@ -123,7 +123,7 @@ function Home() {
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
-              <a href="">Learn More</a>
+              <a href="/">Learn More</a>
             </div>
 
           </div>
@@ -136,7 +136,7 @@ function Home() {
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
-              <a href="">Learn More</a>
+              <a href="/">Learn More</a>
             </div>
 
           </div>
@@ -149,7 +149,7 @@ function Home() {
               <p className='text-[16px] text-paragraphlight text-center mt-[25px]'>First impressions count! Make sure your brand works for you. We offer digital marketing.</p>
             </div>
             <div className='mt-[35px] text-[16px] text-primary'>
-              <a href="">Learn More</a>
+              <a href="/">Learn More</a>
             </div>
 
           </div>
